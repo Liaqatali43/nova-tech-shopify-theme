@@ -11,13 +11,54 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_d3L66i": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HT4MkQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_gV3XVn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>TechNova was created with a simple vision: to make modern technology accessible to everyone.</p><p>We believe technology should make everyday life easier, smarter, and more connected. That's why we focus on bringing together quality electronics, innovative gadgets, and reliable accessories in one place.</p><p>Our goal is to provide customers with quality products, affordable prices, and a shopping experience they can trust.</p><p>At TechNova, we're not just selling electronics — we're helping people discover better ways to connect with technology.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HT4MkQ",
+        "text_gV3XVn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/about_hero_image.jpg",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_d3L66i"
   ]
 }
