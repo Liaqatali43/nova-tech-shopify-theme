@@ -2188,7 +2188,7 @@ input[type="checkbox"] {
 
 @media screen and (min-width: 990px) {
   .utility-bar__grid--3-col {
-    grid-template-columns: 3fr 4fr 3fr;
+    grid-template-columns: auto;
     grid-template-areas: "announcements language-currency";
   }
 
