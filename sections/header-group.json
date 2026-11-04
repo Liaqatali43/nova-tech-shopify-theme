@@ -17,8 +17,9 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Summer Sale For All Swim Suite and Free Express Delivery  - OFF 50%!",
+            "link_text": "Shop Now",
+            "link": "shopify://collections/all"
           }
         }
       },
@@ -27,12 +28,12 @@
       ],
       "settings": {
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 4,
         "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "enable_country_selector": false,
-        "enable_language_selector": false
+        "enable_language_selector": true
       }
     },
     "header": {
@@ -46,8 +47,8 @@
         "show_line_separator": true,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
-        "enable_country_selector": true,
-        "enable_language_selector": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
         "margin_bottom": 0,
         "padding_top": 20,
         "padding_bottom": 20
